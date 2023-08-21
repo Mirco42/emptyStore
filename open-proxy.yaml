@@ -1,1 +1,12 @@
 version: 1.0
+api:
+  name: emptystore
+  version: 1.0
+  displayName: emptystore                 # optional
+  description: a simple emptystore api    # optional
+  type: REST
+backend:
+  url: https://internal.emptystore.com
+gateway:
+  protocol: https
+  path: /emptystore
